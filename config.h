@@ -44,6 +44,7 @@ static const struct arg args[] = {
 	{ ram_perc, "RAM %3s | ", NULL },
 	{ battery_perc, "BAT %s ", "BAT0" },
 	{ battery_state, "%s | ", "BAT0" },
-	{ ip, "IP %s | ", "wlp2s0" },
+	{ ip, "W %s ", "wlp2s0" },
+	{ ip, "E %s | ", "eno1" },
 	{ datetime, "%s",     "%F %T" },
 };
